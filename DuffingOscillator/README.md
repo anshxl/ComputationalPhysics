@@ -30,21 +30,10 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-Clone the repository:
-```bash
-git clone https://github.com/yourusername/duffing-oscillator.git
-```
-Navigate to the project directory:
-```bash
-cd duffing-oscillator
-```
-Open the Jupyter Notebook:
-```bash
-jupyter notebook DuffingOscillator.ipynb
-```
+Install Dependencies: Ensure you have numpy and scipy installed.
+Run the Simulation: Execute the Jupyter Notebook to simulate the double pendulum and visualize the phase portraits and trajectories.
 
 ## Contents
-
 1. Description of the Differential Equation: Introduction to the Duffing Equation and its physical significance.
 2. Investigate the Duffing Equation Analytically: Analytical exploration of the Duffing Equation, including linearization and investigation of different regimes.
    
