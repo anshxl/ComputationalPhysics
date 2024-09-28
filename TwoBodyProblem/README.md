@@ -13,19 +13,19 @@ The problem models the mutual gravitational pull between two masses, leading to 
 - The center of mass (CoM) frame and relative coordinates are used.
 
 ## Lagrangian Mechanics
-The Lagrangian \( L = T - V \) is constructed from the kinetic and potential energy of the system:
-- **Kinetic Energy (T)**: The total kinetic energy is the sum of the kinetic energy of both masses, expressed in terms of the reduced mass \( \mu \) and the total mass \( M \).
+The Lagrangian $L = T - V$ is constructed from the kinetic and potential energy of the system:
+- **Kinetic Energy (T)**: The total kinetic energy is the sum of the kinetic energy of both masses, expressed in terms of the reduced mass $\mu$ and the total mass $M$.
 - **Potential Energy (V)**: The potential energy is the gravitational potential energy between the two bodies.
 
 ## Euler-Lagrange Equations
 Using the Euler-Lagrange formalism, the equations of motion for the relative coordinates \( r \) and \( \phi \) are derived:
-- \( \ddot{r} = r \dot{\phi}^2 - \frac{Gm_1m_2}{\mu r^2} \)
-- \( \ddot{\phi} = - \frac{2\dot{r}\dot{\phi}}{r} \)
+- $\ddot{r} = r \dot{\phi}^2 - \frac{Gm_1m_2}{\mu r^2}$
+- $\ddot{\phi} = - \frac{2\dot{r}\dot{\phi}}{r}$
 
 ## Numerical Solution
 The second-order equations are converted into first-order equations for numerical solution using the following substitutions:
-- \( v = \dot{r} \)
-- \( \omega = \dot{\phi} \)
+- $v = \dot{r}$
+- $\omega = \dot{\phi}$
 
 The equations are then solved using numerical integration methods.
 
