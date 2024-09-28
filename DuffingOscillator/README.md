@@ -43,3 +43,12 @@ Open the Jupyter Notebook:
 jupyter notebook DuffingOscillator.ipynb
 ```
 
+## Contents
+
+1. Description of the Differential Equation: Introduction to the Duffing Equation and its physical significance.
+2. Investigate the Duffing Equation Analytically: Analytical exploration of the Duffing Equation, including linearization and investigation of different regimes.
+   
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
