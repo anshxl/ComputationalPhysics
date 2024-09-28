@@ -1,6 +1,6 @@
 # Double Pendulum Simulation
 ## Project Description
-This project simulates the dynamics of a double pendulum system, which consists of two point masses connected by rigid rods. The first mass is connected to a pivot point, and the second mass is connected to the first mass. The system exhibits two degrees of freedom, represented by the angles ( \theta_1 ) (angle of the first rod from the vertical) and ( \theta_2 ) (angle of the second rod from the vertical). The double pendulum is a classic example of a chaotic system, where small changes in initial conditions can lead to drastically different outcomes.
+This project simulates the dynamics of a double pendulum system, which consists of two point masses connected by rigid rods. The first mass is connected to a pivot point, and the second mass is connected to the first mass. The system exhibits two degrees of freedom, represented by the angles $\theta_1$ (angle of the first rod from the vertical) and $\theta_2$ (angle of the second rod from the vertical). The double pendulum is a classic example of a chaotic system, where small changes in initial conditions can lead to drastically different outcomes.
 
 ## Objectives
 Investigate the chaotic dynamics of the double pendulum.
