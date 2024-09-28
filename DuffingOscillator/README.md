@@ -27,3 +27,19 @@ To run this notebook, you need to have Jupyter Notebook installed along with the
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/duffing-oscillator.git
+```
+Navigate to the project directory:
+```bash
+cd duffing-oscillator
+```
+Open the Jupyter Notebook:
+```bash
+jupyter notebook DuffingOscillator.ipynb
+```
+
