@@ -11,13 +11,13 @@ $$
 $$
 
 where:
-- $ x $ is the displacement,
+- $x$ is the displacement,
 - $t$ is time,
 - $\delta$ is the damping coefficient,
 - $\alpha$ is the linear stiffness coefficient,
 - $\beta$ is the nonlinear stiffness coefficient,
 - $\gamma$ is the amplitude of the driving force,
-- $\gamma is the frequency of the driving force.
+- $\gamma$ is the frequency of the driving force.
 
 The notebook explores the behavior of the Duffing oscillator under various conditions and provides analytical insights into its dynamics.
 
