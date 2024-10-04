@@ -12,7 +12,7 @@ The system consists of a hollow spherical shell with:
 
 ## Analytical Setup
 The electric field is analyzed in two regions:
-1. **Inside the Hollow Sphere ($r \leq R$)**: The electric field is zero.
+1. **Inside the Hollow Sphere $r \leq R$**: The electric field is zero.
 2. **Outside the Hollow Sphere ($r > R$)**: The electric field is given by $E = \frac{kQ}{r^2}$.
 
 ## Numerical Methods
