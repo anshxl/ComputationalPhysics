@@ -8,8 +8,8 @@ The system consists of a rectangular box with:
 - Width $a$
 - Height $b$
 - Amplitude of the sinusoidal potential $V_0$
-- Number of Fourier terms to sum $ \text{terms} $
-- Resolution of the grid $ \text{steps} $
+- Number of Fourier terms to sum $\text{terms}$
+- Resolution of the grid $\text{steps}$
 
 ## Analytical Setup
 The electric potential is calculated using a Fourier series expansion. The potential at each point $(x, y)$ is given by:
