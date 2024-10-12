@@ -13,9 +13,7 @@ The system consists of a rectangular box with:
 
 ## Analytical Setup
 The electric potential is calculated using a Fourier series expansion. The potential at each point $(x, y)$ is given by:
-$$
-V(x, y) = \frac{4V_0}{\pi} \sum_{2n+1}^{\infty}\frac{\sinh(\frac{n\pi x}{a})\sin(\frac{n\pi y}{a})}{n \sinh(\frac{n\pi b}{a})}
-$$
+$$V(x, y) = \frac{4V_0}{\pi} \sum_{2n+1}^{\infty}\frac{\sinh(\frac{n\pi x}{a})\sin(\frac{n\pi y}{a})}{n \sinh(\frac{n\pi b}{a})}$$
 
 
 ## Numerical Methods
