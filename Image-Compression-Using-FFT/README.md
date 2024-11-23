@@ -28,17 +28,17 @@ This project is conducted as part of a physics class to explore the mathematical
 
 ## **Mathematics of 2D FFT**
 
-The 2D FFT transforms an image \( f(x, y) \) from the spatial domain into the frequency domain \( F(u, v) \) using the following equation:
+The 2D FFT transforms an image $ f(x, y) $ from the spatial domain into the frequency domain $ F(u, v) $ using the following equation:
 
-\[
+$$
 F(u, v) = \sum_{x=0}^{M-1} \sum_{y=0}^{N-1} f(x, y) \cdot e^{-2\pi i \left( \frac{ux}{M} + \frac{vy}{N} \right)}
-\]
+$$
 
 The inverse transform reconstructs the image:
 
-\[
+$$
 f(x, y) = \frac{1}{MN} \sum_{u=0}^{M-1} \sum_{v=0}^{N-1} F(u, v) \cdot e^{2\pi i \left( \frac{ux}{M} + \frac{vy}{N} \right)}
-\]
+$$
 
 These equations decompose the image into a sum of sinusoidal basis functions.
 
