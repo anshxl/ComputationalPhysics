@@ -51,9 +51,9 @@ This project simulates the random motion of particles, also known as Brownian mo
 
 ## Customization
 The notebook includes parameters to customize:
-- Number of particles $ (N) $.
-- Total time steps $ (T) $.
-- Time step size $ (\Delta t) $.
+- Number of particles $(N)$.
+- Total time steps $(T)$.
+- Time step size $(\Delta t)$.
 - Initial positions for 2D motion.
 
 
